@@ -2,7 +2,7 @@ function evenNumber(number) {
     var num = number.toString();
     var k = 0;
     for (var i = 0; i < num.length; i ++) {
-        if (+num[i] % 2 === 0) {
+        if (!(+num[i] % 2)) {
             k++;
         }
     }
