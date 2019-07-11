@@ -6,13 +6,13 @@ function evenNumber(number) {
             k++;
         }
     }
-    console.log(k);
+    return k;
 }
 
 
-evenNumber(223344); // 4
-evenNumber(111); // 0
-evenNumber(123456); // 3
-evenNumber(97531); // 0
-evenNumber(8642); // 4
-evenNumber(24688642); // 8
+console.log(evenNumber(223344)); // 4
+console.log(evenNumber(111)); // 0
+console.log(evenNumber(123456)); // 3
+console.log(evenNumber(97531)); // 0
+console.log(evenNumber(8642)); // 4
+console.log(evenNumber(24688642)); // 8
